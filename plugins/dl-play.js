@@ -19,7 +19,7 @@ const handler = async (m, {
     conn.GURUPLAY = conn.GURUPLAY ? conn.GURUPLAY : {};
     await conn.reply(m.chat, wait, m);
     const result = await searchAndDownloadMusic(text);
-    const infoText = `✦ ──『 *GURU PLAYER* 』── ⚝ \n\n [ ⭐ Reply the number of the desired search result to get the Audio]. \n\n` ;
+    const infoText = `✦ ──『 * MUSIC 🎶 PLAYER* 』── ⚝`;
 
 const orderedLinks = result.allLinks.map((link, index) => {
     const sectionNumber = index + 1;
@@ -57,7 +57,7 @@ handler.before = async (m, {
         key,
         timeout
     } = conn.GURUPLAY[m.sender];
-   
+    console.log(conn.GURUPLAY)
     if (!m.quoted || m.quoted.id !== key.id || !m.text) return;
     const choice = m.text.trim();
     const inputNumber = Number(choice);
