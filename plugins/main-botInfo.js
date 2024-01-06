@@ -56,7 +56,7 @@ let infobt = `
 ▢ *${chats.length}* Total Chats
 
 *≡ OWNER*
-  *GURU*
+  *JO-jo*
 ▢ Instagram :
   • https://instagram.com/asli_guru69
 ▢ GitHub :
@@ -79,6 +79,6 @@ m.react(done)
 }
 handler.help = ['info']
 handler.tags = ['main']
-handler.command = ['info', 'infobot', 'botinfo']
+handler.command = ['infosususujs', 'infobohshshsvt', 'busiohfo']
 
 export default handler

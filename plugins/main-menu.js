@@ -536,58 +536,47 @@ import {
    
     global.fcontact = { key: { fromMe: false, participant: `0@s.whatsapp.net`, remoteJid: 'status@broadcast' }, message: { contactMessage: { displayName: `${name}`, vcard: `BEGIN:VCARD\nVERSION:3.0\nN:;a,;;;\nFN:${name}\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD`}}}
     const infoText = `
-    ${botname} あ⁩ 」\n
-    Hii ${name} Senpai
-    
-    *${ucpn}* 
-   
-    乂───『 *U S E R*』───乂
-    ⛥ *Name:* ${name}
-    ⛥ *Gold:* ${credit}
-    ⛥ *Role:* ${role}
-    ⛥ *Level:* ${level}
-    ⛥ *Xp:* ${exp}
-    ╰──────────⳹
-   
-    乂───『 *I N F O*』───乂
-    ⛥ *Bot Name:* ${botname}
-    ⛥ *Mode:* ${mode}
-    ⛥ *Platform:* ${platform}
-    ⛥ *Type:* NodeJs
-    ⛥ *Baileys:* Multi Device
-    ⛥ *Prefix:* [ *${usedPrefix}* ]
-    ⛥ *Uptime:* ${muptime}
-    ⛥ *Database:*  ${totalreg}
-    ╰──────────⳹
-    
-    乂───『 *I N F O  C M D*』───乂 
-    │ *${totalfeatures}* Commands
-    ╰──────────⳹
+    ┌─────═[ 𝑗𝑜-𝐽𝑂 あ⁩ ]═────▸
+│╭────────────···▸
+┴│▸  ${ucpn}*                 
+  │
+⬡│▸ *User:*  ${name} あ⁩
+⬡│▸ *Botname:* ${botname}
+⬡│▸ *Prefix:*  [ *${usedPrefix}* ]
+⬡│▸ *Mode:* ${mode}
+⬡│▸ *Owner:* ᴊ ᴏ ᴊᴏ
+⬡│▸ *Plugins:* ${totalfeatures}
+⬡│▸ *Uptime:* ${muptime}
+⬡│▸ *Database:* ${totalreg} 
+⬡│▸ *platform:* ${platform}
+⬡│▸ *Type:* NodeJs
+┬│▸
+│╰─────────────···▸
+└───────────────···▸
      ${readMore}
 
-    乂───『 *INFO*』───乂 
-  │*Reply with the number*
-  │ to get respected Menu*
-  ╰───────⳹
+   *𝘙𝘦𝘱𝘭𝘺 𝘸𝘪𝘵𝘩 𝘵𝘩𝘦 𝘯𝘶𝘮𝘣𝘦𝘳*
+    𝘵𝘰 𝘨𝘦𝘵 𝘳𝘦𝘴𝘱𝘦𝘤𝘵𝘦𝘥 𝘔𝘦𝘯𝘶*
+     ──────⳹
   ╭───────⳹
-  │ *1.* Bot Menu
-  │ *2.* Owner Menu
-  │ *3.* Group Menu
-  │ *4.* Fun Menu
-  │ *5.* Reaction Menu
-  │ *6.* Downloader Menu
-  │ *7.* Game Menu
-  │ *8.* Logo Menu
-  │ *9.* Sticker Menu
-  │ *10.* Audio Menu
-  │ *11.* News Menu
-  │ *12.* Economy Menu
-  │ *13.* Anime Menu
-  │ *14.* NSFW Menu
-  │ *15.* Tools Menu
-  │ *16.* AI Menu
-  │ *17.* Religion Menu
-  │ *18.* Plugin Menu
+  │ *1.* ᴜꜱᴇʀ
+  │ *2.* ᴏᴡɴᴇʀ
+  │ *3.* ɢʀᴏᴜᴘ
+  │ *4.* ꜰᴜɴ
+  │ *5.* ʀᴇᴀᴄᴛɪᴏɴ
+  │ *6.* ᴅᴏᴡɴʟᴏᴀᴅᴇʀ
+  │ *7.* ɢᴀᴍᴇ
+  │ *8.* ʟᴏɢᴏ
+  │ *9.* ꜱᴛɪᴄᴋᴇʀ
+  │ *10.* ᴀᴜᴅɪᴏ
+  │ *11.* ɴᴇᴡꜱ
+  │ *12.* ᴇᴄᴏɴᴏᴍʏ
+  │ *13.* Aɴɪᴍᴇ Pɪᴄꜱ
+  │ *14.* ɴꜱꜰᴡ
+  │ *15.* ᴛᴏᴏʟꜱ
+  │ *16.* ᴀɪ
+  │ *17.* ʀᴇʟɪɢɪᴏɴ
+  │ *18.* ɢᴇɴᴇʀᴀʟ
   ╰───────⳹
  ${readMore}` 
 ;
